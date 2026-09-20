@@ -1,0 +1,4 @@
+EPOS MBE log: reported segregating 10,529,304 + monomorphic 1,340,162,791 = 1,350,692,095, which is 42,184 less than command-line -l 1,350,734,279. The supplied SFS sums to 10,529,304; cause of mismatch is unknown.
+FitCoal year/popSize trajectories are supplied for Elife, Science and MBE; four best-model Blockbuster demes YAML files are supplied, including folded Zhen.
+The precise provenance of FitCoal-format year/popSize trajectories should be checked against the original generating logs.
+EPOS rows were transcribed from the message and are rounded; no machine logs were supplied. For the full reconstructed curve, each Ne is assigned to the interval ending at its T. Coincident rounded boundaries are shown as zero-width markers, not invented durations.

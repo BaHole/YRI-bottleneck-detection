@@ -1,0 +1,16 @@
+dataset	level	T_generations	Ne	source
+Elife	11	6570	32800	user_supplied_epos_log
+Elife	6	24000	43500	user_supplied_epos_log
+Elife	3	25700	1440	user_supplied_epos_log
+Elife	2	89500	31900	user_supplied_epos_log
+Science	16	6900	27800	user_supplied_epos_log
+Science	5	26600	26900	user_supplied_epos_log
+Science	3	26600	1	user_supplied_epos_log
+Science	2	85300	29400	user_supplied_epos_log
+MBE	216	42.9	498000	user_supplied_epos_log
+MBE	29	3670	29200	user_supplied_epos_log
+MBE	10	13300	31900	user_supplied_epos_log
+MBE	6	19800	18200	user_supplied_epos_log
+MBE	5	34100	71600	user_supplied_epos_log
+MBE	3	34100	33.8	user_supplied_epos_log
+MBE	2	87400	26700	user_supplied_epos_log

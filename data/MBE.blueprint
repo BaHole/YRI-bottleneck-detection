@@ -1,0 +1,27 @@
+#example blueprint file
+#input setting
+popid: MBE_108samples # id of the population (no white space)
+nseq: 216 # number of sequences
+L: 1350734279  # total number of observed nucleic sites, including polymorphic and monomorphic
+whether_folded: false # whethr the SFS is folded (true or false)
+SFS: 2117298	984816	647111	485115	391046	322773	276537	237264	210178	187540	168006	154535	140172	130408	120685	112567	104315	96959	92812	87765	82664	77782	74777	69902	68118	64535	61685	58411	55449	54366	52077	50694	48700	46456	45337	43639	41689	41648	39382	38545	37465	36632	35295	34282	33106	31651	31516	30788	29855	29026	28608	28846	27461	27132	25881	25129	25101	24519	23326	22826	22860	22332	22357	21764	20531	20577	20879	19981	20620	19211	19039	18934	18161	17880	17942	17263	17463	16921	16304	16411	16321	15936	16107	15476	15309	15728	15135	15120	14824	14862	14511	14094	13763	13710	13401	13508	13235	12973	13102	13005	12825	12511	12548	12096	12418	12144	12078	11268	11408	11266	11654	11514	11358	11536	11266	11217	11274	10684	10864	11050	10530	10252	10313	10276	10628	10722	10284	10262	10124	9997	10029	9864	9504	9764	9361	10030	9544	9315	9121	9525	9645	9480	9390	9114	9729	9546	9215	9075	9184	8965	9152	8907	9136	8907	8653	9647	8836	8775	8918	9338	8810	9148	8582	8487	8549	8814	8471	8525	8474	8913	8468	8317	8697	8297	8533	8288	8591	8476	8224	8234	8263	8072	8001	8352	8258	8506	7906	8457	8274	8184	8238	8120	8350	7826	8584	8485	8249	7982	8272	8396	7986	8357	8385	8329	7866	8082	8291	7848	8234	8305	8650	8334	8464	9555	11156 # snp frequency spectrum: number of singleton, number of doubleton, etc. (separated by white space)
+#smallest_size_of_SFS_bin_used_for_estimation: 1 # default is 1; to ignore singletons, uncomment this line and change this number to 2
+#largest_size_of_SFS_bin_used_for_estimation: 29 # default is n-1; to ignore singletons, uncomment this line and change this number to nseq-2
+pct_training: 0.67 # percentage of sites for training
+nrand: 54	107	161	214 # number of random break points for each try (separated by white space)
+project_dir: MBE_108samples # project directory
+stairway_plot_dir: /data/taotz/soft/stairway_plot_v2.2/stairway_plot_es/ # directory to the stairway plot files
+ninput: 200 # number of input files to be created for each estimation
+theta_upper_bound: 0.2 # the maximum of theta used in the search algorithm, default is 0.2. Increase this value only if seeing confident intervals converged to the same value as a plateau on the plot.
+dimension_factor: 2000 # this parameter determin the maximum number of iteration of the search algorithm, default is 2000.
+#random_seed: 6
+#output setting
+mu: 1.25e-8 # assumed mutation rate per site per generation
+year_per_generation: 29 # assumed generation time (in years)
+#plot setting
+plot_title: MBE_108samples # title of the plot
+xrange: 0.1,10000 # Time (1k year) range; format: xmin,xmax; "0,0" for default
+yrange: 0,0 # Ne (1k individual) range; format: xmin,xmax; "0,0" for default
+xspacing: 2 # X axis spacing
+yspacing: 2 # Y axis spacing
+fontsize: 12 # Font size

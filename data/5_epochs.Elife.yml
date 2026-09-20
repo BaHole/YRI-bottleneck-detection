@@ -1,0 +1,18 @@
+time_units: years
+generation_time: 29.0
+demes:
+  - name: B
+    start_time: .inf
+    epochs:
+      - start_size: 88499.456443
+        end_time: 1519906.849202
+      - start_size: 88499.456443
+        end_time: 759953.424601
+      - start_size: 662.170535
+        end_time: 690865.507167
+      - start_size: 122668.525932
+        end_time: 100092.089775
+      - start_size: 6809.765342
+        end_time: 53742.828488
+      - start_size: 1274845.810931
+        end_time: 0.0

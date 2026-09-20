@@ -1,0 +1,27 @@
+#example blueprint file
+#input setting
+popid: Zhen_GR_100samples # id of the population (no white space)
+nseq: 100 # number of sequences
+L: 5767108  # total number of observed nucleic sites, including polymorphic and monomorphic
+whether_folded: true # whethr the SFS is folded (true or false)
+SFS: 9472.41939611629	4001.62338253325	2573.83068899282	1878.22724122081	1465.62923392793	1189.56092360326	996.936825484797	858.202165853417	752.298748926502	664.748043587845	590.167992696444	528.26091333922	478.597137968476	439.300131593039	408.008180275827	382.548380126826	360.962569009392	341.599817794897	323.434250589635	306.21515445981	290.232815936535	275.897830562685	263.410498473755	252.628263830436	243.115575451476	234.323510187597	225.812625609355	217.40722853689	209.208646667222	201.485428727865	194.5230820917	188.510321598103	183.489844979299	179.361486927861	175.916471448003	172.890559495514	170.031040250255	167.16916158458	164.27865873515	161.492818643361	159.060343946028	157.248517862112	156.234840058676	156.038364420013	156.518186905042	157.427220655839	158.48492370208	159.436604633918	160.087637742594	80.1590480072875 # snp frequency spectrum: number of singleton, number of doubleton, etc. (separated by white space)
+#smallest_size_of_SFS_bin_used_for_estimation: 1 # default is 1; to ignore singletons, uncomment this line and change this number to 2
+#largest_size_of_SFS_bin_used_for_estimation: 29 # default is n-1; to ignore singletons, uncomment this line and change this number to nseq-2
+pct_training: 0.67 # percentage of sites for training
+nrand: 25	49	75	98 # number of random break points for each try (separated by white space)
+project_dir: Zhen_GR_100samples # project directory
+stairway_plot_dir: /data/taotz/soft/stairway_plot_v2.2/stairway_plot_es/ # directory to the stairway plot files
+ninput: 200 # number of input files to be created for each estimation
+theta_upper_bound: 0.2 # the maximum of theta used in the search algorithm, default is 0.2. Increase this value only if seeing confident intervals converged to the same value as a plateau on the plot.
+dimension_factor: 2000 # this parameter determin the maximum number of iteration of the search algorithm, default is 2000.
+#random_seed: 6
+#output setting
+mu: 1.25e-8 # assumed mutation rate per site per generation
+year_per_generation: 29 # assumed generation time (in years)
+#plot setting
+plot_title: Zhen_GR_100samples # title of the plot
+xrange: 0.1,10000 # Time (1k year) range; format: xmin,xmax; "0,0" for default
+yrange: 0,0 # Ne (1k individual) range; format: xmin,xmax; "0,0" for default
+xspacing: 2 # X axis spacing
+yspacing: 2 # Y axis spacing
+fontsize: 12 # Font size

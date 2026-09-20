@@ -1,0 +1,5 @@
+dataset	nseq	folded	length	segregating	monomorphic
+Elife	20	False	5334461	23919	5310542
+Science	216	False	826650000	5803697	820846303
+MBE	216	False	1350734279	10529304	1340204975
+Zhen	100	True	5767108	33681	5733427

@@ -1,0 +1,18 @@
+dataset	method	start_year	end_year	Ne	Ne_2_5	Ne_97_5	note
+Elife	Stairway Plot 2	710074.624110626	710074.624110626	5689.640349939994	1077.6069313164912	9010.77758400755	minimum median within 0.5-1.5 Ma; bounds are Ne at this time, not a time CI
+Elife	FitCoal	767087.0	846934.0	842.0			reported low-size interval (Ne <= 5000); threshold only for display
+Elife	FitCoal	846934.0	859686.0	158.0			reported low-size interval (Ne <= 5000); threshold only for display
+Elife	Blockbuster	690865.507167	759953.424601	662.170535			best-model epoch; start_year is younger boundary
+Science	Stairway Plot 2	680200.5742659954	680200.5742659954	891.6501277747536	707.6075122482308	10318.254400290329	minimum median within 0.5-1.5 Ma; bounds are Ne at this time, not a time CI
+Science	FitCoal	739146.0	801862.0	701.0			reported low-size interval (Ne <= 5000); threshold only for display
+Science	FitCoal	801862.0	808677.0	103.0			reported low-size interval (Ne <= 5000); threshold only for display
+Science	FitCoal	808677.0	873827.0	3126.0			reported low-size interval (Ne <= 5000); threshold only for display
+Science	Blockbuster	659649.062278	725629.558191	662.294681			best-model epoch; start_year is younger boundary
+MBE	Stairway Plot 2	941595.5951486201	941595.5951486201	4893.254711721135	4879.025414146612	4928.619272865881	minimum median within 0.5-1.5 Ma; bounds are Ne at this time, not a time CI
+MBE	FitCoal	1023739.0	1119610.0	1191.0			reported low-size interval (Ne <= 5000); threshold only for display
+MBE	Blockbuster	962987.694955	1059295.61156	1097.717837			best-model epoch; start_year is younger boundary
+Zhen	Stairway Plot 2	1340412.9490507161	1340412.9490507161	12510.743781263503	4220.086620971898	14502.199707916863	minimum median within 0.5-1.5 Ma; bounds are Ne at this time, not a time CI
+Zhen	Blockbuster	859682.432108	947563.008687	1004.792309			best-model epoch; start_year is younger boundary
+Elife	EPOS	696000.0	745300.0	1440.0			rounded time boundaries; size assigned to interval ending at T
+Science	EPOS	771400.0	771400.0	1.0			same rounded endpoints; duration unresolved
+MBE	EPOS	988900.0	988900.0	33.8			same rounded endpoints; duration unresolved
